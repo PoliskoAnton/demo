@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // если нужно деплоить в поддиректории (на Render можно оставить ./)
+  base: '/', // если нужно деплоить в поддиректории (на Render можно оставить ./)
   server: {
     port: 5173,
     open: true
